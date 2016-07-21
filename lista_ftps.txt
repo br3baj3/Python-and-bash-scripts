@@ -1,0 +1,14 @@
+rtfm.mit.edu
+ftp.uni-stuttgart.de
+ftp.x.org
+ftp.crc.dk
+ftp.rediris.es
+ftp.heanet.ie
+ftp.de.netbsd.org
+ftp.iij.ad.jp
+ftp.cica.es
+ftp.cps.unizar.es
+ftp.ua.es
+ftp.udc.es
+ftp.ugr.es
+ftp.uvigo.es
