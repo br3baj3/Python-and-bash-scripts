@@ -2,7 +2,7 @@
 
 VALUES="/var/tmp/routers_tmp.txt"
 VALUES_AUX="/var/tmp/VALUES_aux"
-WELFORD="/home/moebius/utils/welford.py"
+WELFORD="/home/machine/utils/welford.py"
 DEVIATION="/var/tmp/variance.txt"
 RECIPIENT="admin@domain.es"
 IP_NAGIOS=127.0.0.1
