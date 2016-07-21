@@ -15,7 +15,7 @@ TS_EPOCH=$(date -d "$DATE $TIME_START" +%s)
 TE_EPOCH=$(date -d "$DATE $TIME_END" +%s)
 
 # To obtain the list of routers first of all
-sudo ssh -c 3des $IP_NAGIOS "/usr/local/utilidades/inventario.pl -h --tipo router| cut -f 1 -d ';'| egrep "^r.*"">$VALUES
+sudo ssh -c 3des $IP_NAGIOS "/usr/local/utils/inventary.pl -h --type router| cut -f 1 -d ';'| egrep "^r.*"">$VALUES
 
 # We obtain the necessary values to compute the standard deviation, removing the non desired columns and values to ease the conversion to float
 while IFS='' read -r line || [[ -n "$line" ]]; do
