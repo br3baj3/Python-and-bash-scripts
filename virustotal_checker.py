@@ -9,7 +9,7 @@ counter=0
 url = 'https://www.virustotal.com/vtapi/v2/ip-address/report'
 
 IPlist=open("list_IPs.txt")
-IPreput=open("Reputacion_IPs.html","w")
+IPreput=open("Reputation_IPs.html","w")
 IP=IPlist.readline().rstrip('\n')
 
 while IP!="":
