@@ -1,3 +1,7 @@
+#This script is intended to check a list of several "suspicious" IPs detected in a network traffic capture. 
+#Since the IP report from virustotal is limited to 4 requests for minute, a time sleep must be introuduced.
+#Ouput is formated in tables for an html file.
+
 import json
 import urllib
 import sys
